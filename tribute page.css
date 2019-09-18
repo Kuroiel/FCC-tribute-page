@@ -12,9 +12,14 @@
   font-size: 30px;
   position: relative;
   top: -20px;
+  justify-content: center;
 }
 .smol{
 	transform: (0.9, 0.9);
+}
+#tribute-info {
+	text-align: center;
+	color: red;
 }
 #everything {
   background-color: grey;
@@ -47,6 +52,12 @@
 }
 #img-caption {
 	text-align: center;
+	font-size: 20px;
+	font-style: italic;
+}
+#basic-info {
+	text-align: center;
+	font-size: 20px;
 }
 @media (max-width: 100%){
 	.emet-pic {
@@ -55,13 +66,26 @@
 		height: auto;
 	}
 }
-#extrnal-link {
+#achievements {
+	text-align: center;
+	font-size: 28px;
+}
+#list{
 	text-align: center;
 	font-size: 20px;
+	list-style: inside;
+}
+#extrnal-link {
+	text-align: center;
+	font-size: 25px;
 }
 .body1 {
 	text-align: center;
 }
 h4 {
+	text-align: center;
+	font-size: 20px;
+}
+blockquote {
 	text-align: center;
 }
